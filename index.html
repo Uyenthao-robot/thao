@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân - Purple Theme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #c7a7e7, #7b4abf);
+            color: #333;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .content {
+            flex: 2;
+        }
+        .content fieldset {
+            border: 2px solid #7b4abf;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .content legend {
+            font-weight: bold;
+            color: #7b4abf;
+        }
+        .additional-box {
+            background: #eed8f8;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .additional-box h2 {
+            color: #7b4abf;
+        }
+        .image {
+            flex: 1;
+            text-align: center;
+        }
+        .image img {
+            max-width: 150px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: #7b4abf;">Giới thiệu bản thân</h1>
+    <div class="container">
+        <div class="content">
+            <form action="bieumau.html" method="post">
+                <fieldset>
+                    <legend>Giới thiệu thông tin bản thân</legend>
+                    <ol>
+                        <li><label for="fullname">Họ và tên:</label><br><p>Trần Hồng Uyên Thảo</p></li>
+                        <li><label for="class">Lớp:</label><br><p>12 Hóa</p></li>
+                        <li><label for="email">Email:</label><br><p>uyenthaorobot@gmail.com</p></li>
+                        <li><label for="text">Quê quán:</label><br><p>Thành phố Bến Tre, tỉnh Bến Tre</p></li>
+                    </ol>
+                </fieldset>
+            </form>
+            <div class="additional-box">
+                <h2>Thông tin thêm</h2>
+                <p><strong>Số điện thoại liên lạc:</strong> 0123 456 789</p>
+                <p><strong>Câu lạc bộ:</strong> CLB Hóa học CBT</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="dora3.png" alt="Hình ảnh của Trần Hồng Uyên Thảo">
+        </div>
+    </div>
+</body>
+</html>
