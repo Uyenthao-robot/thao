@@ -54,10 +54,30 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
+        .funny-button {
+            background-color: #ff69b4;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 12px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .funny-button:hover {
+            background-color: #ff1493;
+            transform: scale(1.1);
+        }
+        .funny-button:active {
+            background-color: #c71585;
+            transform: scale(1);
+        }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center; color: #7b4abf;">Giới thiệu bản thân</h1>
+    <h1 style="text-align: center; color: #7b4abf;">Giới thiệu bản thân (Hơi hài hước đấy!)</h1>
     <div class="container">
         <div class="content">
             <form action="bieumau.html" method="post">
@@ -75,7 +95,9 @@
                 <h2>Thông tin thêm</h2>
                 <p><strong>Số điện thoại liên lạc:</strong> 0123 456 789</p>
                 <p><strong>Câu lạc bộ:</strong> CLB Hóa học CBT</p>
+                <p><strong>Thích làm gì khi rảnh?</strong> Ăn mì tôm và tự hỏi "Tại sao mình lại làm điều này?"</p>
             </div>
+            <button class="funny-button" onclick="https://www.vietcombank.com.vn/vi-VN/KHCN/Cong-cu-Tien-ich/Ty-gia">Nhấn vào đây nếu bạn thấy vui!</button>
         </div>
         <div class="image">
             <img src="https://github.com/user-attachments/assets/26ff0066-6f7a-4c95-a6f5-1f5aa6949d43" alt="Hình ảnh của Trần Hồng Uyên Thảo">
@@ -83,3 +105,4 @@
     </div>
 </body>
 </html>
+
